@@ -21,7 +21,7 @@ let colorCopy = faveColors.slice(0,3)
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-let middleNums = numbers.slice(2, 3)
+let middleNums = numbers.slice(1, 4)
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -36,13 +36,12 @@ let middleNums = numbers.slice(2, 3)
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
-let answers = []
+const answers = []
 
-for(let i = 100; i < bigOrSmallArray.length; i++) {
-  if(i < 100){
-    console.log(answers.push('big'))
-  }else{
-    console.log(answers.push('small'))
-  }console.log(answers)
+for(let i = 0; i < bigOrSmallArray.length; i++) {
+  if(bigOrSmallArray[i] > 100)
+    answers.push('big')
+  else 
+    answers.push('small')
 }
-
+console.log(answers)

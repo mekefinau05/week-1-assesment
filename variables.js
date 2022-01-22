@@ -14,7 +14,7 @@ let faveNum = 9
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-let lovesCode = false
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -36,10 +36,9 @@ if(faveNum === 13){
 */
 
 //CODE HERE
-for(let i = faveNum; i > 3 ; i--) {
-  if(faveNum > i) {
-    console.log(faveNum)
+for(let i = 0; i < 5 ; i++) {
+  console.log(faveNum)
   }
-}
+
 
 
